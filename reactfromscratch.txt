@@ -1,0 +1,7 @@
+create a html file-->index.html
+ Add boiler plate and root, <div id="root"></div>
+ get that element /div by-----> const root = ReactDOM.createRoot(document.getElementById('root'));
+ Root will render--->root.render(
+    <App /> any components
+);
+Now create a component app in which you can display every component
